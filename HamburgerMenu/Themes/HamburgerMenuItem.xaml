@@ -13,7 +13,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="local:HamburgerMenuItem">
-                    <Button x:Name="ListBoxItemButton" Command="{TemplateBinding SelectionCommand}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                    <Button x:Name="ListBoxItemButton" Command="{TemplateBinding SelectionCommand}" CommandParameter="{TemplateBinding Value}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="5"/>
